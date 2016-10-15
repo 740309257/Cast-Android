@@ -1,0 +1,81 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:6:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:8:22-73
+application
+ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:10:5-35:19
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/zhouchi/Project/Cast-Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/zhouchi/Project/Cast-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:12:9-43
+activity#tool.xpy.opengl_test.work.ui.MainActivity
+ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:14:9-25:20
+	android:screenOrientation
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:15:45-82
+	android:label
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:17:13-45
+	android:launchMode
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:15:13-44
+	android:name
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:16:13-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:21:27-74
+receiver#tool.xpy.opengl_test.work.ui.MyBroadcastReceiver
+ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:27:9-33:20
+	android:name
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:27:19-82
+intent-filter#BOOM+android.intent.category.LAUNCHER
+ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:28:13-31:29
+action#BOOM
+ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:29:17-47
+	android:name
+		ADDED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml:29:25-44
+uses-sdk
+INJECTED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/zhouchi/Project/Cast-Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/zhouchi/Project/Cast-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhouchi/Project/Cast-Android/app/src/main/AndroidManifest.xml

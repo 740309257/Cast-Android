@@ -54,7 +54,7 @@ public class Ball implements Drawable{
             vx = vx * 0.6f;
             vy = vy * 0.6f;
             z = 0;
-            Log.e("B", "BOOM!");
+            //Log.e("B", "BOOM!");
 
            if(!isSent)
            {

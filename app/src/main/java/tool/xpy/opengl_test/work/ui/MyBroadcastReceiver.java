@@ -24,7 +24,18 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
 
         content="投掷信息：\n x方向初速度："+vx+"\n y方向初速度："+vy+" \n z方向初速度："+vz+"\n"
                 +"飞行信息：\n x方向飞行距离："+x+"\n y方向飞行距离："+y+" \n";
-        Toast.makeText(context,content, Toast.LENGTH_LONG).show();
+        //Toast.makeText(context,content, Toast.LENGTH_LONG).show();
+        /*Toast toast = null;
+
+        if(toast==null){
+            toast=Toast.makeText(context, content,Toast.LENGTH_SHORT);
+            toast.setGravity(Gravity.TOP,0,0);
+        }else{
+            toast.setText(content);
+            toast.setDuration(Toast.LENGTH_SHORT);
+        }
+
+        toast.show();*/
     }
 
 }
